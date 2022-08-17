@@ -1,0 +1,75 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(0, 0, 0, 0.952);
+}
+
+h1, h2, p{
+  text-align: center;
+  color: white;
+}
+
+
+button {
+  cursor: pointer;
+  color: black;
+  height: 35px;
+  width: 120px;
+  font-size: 15px;
+}
+
+.numbers {
+  border: 1px solid white;
+  padding: 10px;
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.number {
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid white;
+  width: 25px;
+  padding: 5px;
+  border-radius: 100%;
+  user-select: none;
+  cursor: pointer;
+}
+
+.selected-number {
+  background-color:yellowgreen;
+  color: black;
+  border: 1px solid black ;
+}
+
+.buttons {
+  padding: 20px;
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 100%;
+  user-select: none;
+  cursor: pointer;
+}
+
+.button :hover{
+  background-color: yellowgreen;
+  color: black;
+  border: 1px solid yellowgreen;
+}
+
+
+.saved-games {
+  font-family: monospace;
+  font-size: 20px;
+  color: white;
+}
